@@ -89,9 +89,7 @@ ul li a{
     color:#f9f9f9;
 }
 
-.black ul li a:hover,
-.black ul li a:focus,
-.black ul li a .current{
+.black ul li a:hover{
     text-decoration:none;
     color:#f0f0f0;
 }
@@ -105,9 +103,7 @@ ul li a{
     color:#1C193E;
 }
 
-.white ul li a:hover,
-.white ul li a:focus,
-.white ul li a .current{
+.white ul li a:hover{
     text-decoration:none;
     color:#020205;
 }
@@ -140,18 +136,20 @@ span.reference a:hover{
     text-decoration:none;
 }
 
-a.current{
-    text-decoration: underline;
+a .current{
+    text-decoration: none;
 }
 
 .black .nav > li > a:hover,
-.black .nav > li > a:focus {
+.black .nav > li > a:focus,
+.black .nav > li > a.active, {
   text-decoration: none;
   background-color: #3B367F;
 }
 
 .white .nav > li > a:hover,
-.white .nav > li > a:focus {
+.white .nav > li > a:focus,
+.white .nav > li > a.active {
   text-decoration: none;
   background-color: #5A52C3;
 }
