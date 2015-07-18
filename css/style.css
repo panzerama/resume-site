@@ -138,14 +138,29 @@ span.reference a:hover{
 
 a .current{
     text-decoration: none;
+    background-color: #3B367F;
 }
 
-.black .nav > li > a:hover{
+.black .nav > li > a:link,
+.black .nav > li > a:visited{
+  text-decoration: none;
+  background-color: #1C193E;
+}
+
+.black .nav > li > a:hover,
+.black .nav > li > a:active{
   text-decoration: none;
   background-color: #3B367F;
 }
 
-.white .nav > li > a:hover{
+.white .nav > li > a:link,
+.white .nav > li > a:visited{
+  text-decoration: none;
+  background-color: #f9f9f9;
+}
+
+.white .nav > li > a:hover,
+.white .nav > li > a:active{
   text-decoration: none;
   background-color: #5A52C3;
 }
