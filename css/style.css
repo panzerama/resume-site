@@ -65,11 +65,19 @@ body{
     background-size: 100%;
 }
 
-.section ul{
+ul{
     list-style:none;
     padding: 20px 5px 10px 25px;
 }
 
+ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li a{
+    font-size: 20px;
+}
 .black ul li{
     color:#f9f9f9;
 }
