@@ -169,26 +169,26 @@ span.reference a:hover{
     font-size: 12px;
 }
 
-.white > a.button:link,
-.white > a.button:visited{
+.white a.button:link,
+.white a.button:visited{
   text-decoration: none;
   background-color: #f9f9f9;
 }
 
-.white > a.button:hover,
-.white > a.button:active{
+.white a.button:hover,
+.white a.button:active{
   text-decoration: none;
   background-color: #5A52C3;
 }
 
-.black > a.button:link,
-.black > a.button:visited{
+.black a.button:link,
+.black a.button:visited{
   text-decoration: none;
   background-color: #1C193E;
 }
 
-.black > a.button:hover,
-.black > a.button:active{
+.black a.button:hover,
+.black a.button:active{
   text-decoration: none;
   background-color: #5A52C3;
 }
