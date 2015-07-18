@@ -91,7 +91,7 @@ ul li a{
 
 .black ul li a:hover,
 .black ul li a:focus,
-.black ul li a .active{
+.black ul li a .current{
     text-decoration:none;
     color:#f0f0f0;
 }
@@ -107,7 +107,7 @@ ul li a{
 
 .white ul li a:hover,
 .white ul li a:focus,
-.white ul li a .active{
+.white ul li a .current{
     text-decoration:none;
     color:#020205;
 }
@@ -140,7 +140,7 @@ span.reference a:hover{
     text-decoration:none;
 }
 
-a.active{
+a.current{
     text-decoration: underline;
 }
 
