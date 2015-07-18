@@ -129,3 +129,7 @@ span.reference a:hover{
     color:#ddd;
     text-decoration:none;
 }
+
+a.active{
+    text-decoration: underline;
+}
