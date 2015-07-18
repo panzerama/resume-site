@@ -140,16 +140,12 @@ a .current{
     text-decoration: none;
 }
 
-.black .nav > li > a:hover,
-.black .nav > li > a:focus,
-.black .nav > li > a.active, {
+.black .nav > li > a:hover{
   text-decoration: none;
   background-color: #3B367F;
 }
 
-.white .nav > li > a:hover,
-.white .nav > li > a:focus,
-.white .nav > li > a.active {
+.white .nav > li > a:hover{
   text-decoration: none;
   background-color: #5A52C3;
 }
