@@ -73,11 +73,11 @@ ul{
 ul li{
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px;
 }
 
 ul li a{
     font-size: 20px;
+    border-radius: 10px;        
 }
 
 .black ul li{
@@ -89,7 +89,9 @@ ul li a{
     color:#f9f9f9;
 }
 
-.black ul li a:hover{
+.black ul li a:hover,
+.black ul li a:focus,
+.black ul li a .active{
     text-decoration:none;
     color:#f0f0f0;
 }
@@ -103,7 +105,9 @@ ul li a{
     color:#1C193E;
 }
 
-.white ul li a:hover{
+.white ul li a:hover,
+.white ul li a:focus,
+.white ul li a .active{
     text-decoration:none;
     color:#020205;
 }
