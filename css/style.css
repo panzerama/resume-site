@@ -163,3 +163,7 @@ span.reference a:hover{
   text-decoration: none;
   background-color: #5A52C3;
 }
+
+.caption > p{
+    font-size: 12px;
+}
