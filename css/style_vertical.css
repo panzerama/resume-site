@@ -11,7 +11,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 body{
-    background:#000;
+    background:#1C193E;
     font-family:'Raleway', sans-serif;
     font-size: 20px;
     /*font-style: italic;
@@ -52,13 +52,15 @@ body{
 }
 
 .black{
-    color:#fff;
-    background:#000 url(../images/black-to-white.png) repeat-x bottom left;
+    color:#f9f9f9;
+    background:#1C193E url(../images/blue-to-white.png) repeat-x bottom left;
+    background-size: 100%;
 }
 
 .white{
-    color:#000;
-    background:#fff url(../images/white-to-black.png) repeat-x bottom left;
+    color:#1C193E;
+    background:#f9f9f9 url(../images/white-to-blue.png) repeat-x bottom left;
+    background-size: 100%;
 }
 
 .section ul{
@@ -80,7 +82,7 @@ body{
 
 .black ul li a:hover{
     text-decoration:none;
-    color:#fff;
+    color:#f9f9f9;
 }
 
 .white ul li{
@@ -97,11 +99,11 @@ body{
 
 .white ul li a:hover{
     text-decoration:none;
-    color:#000;
+    color:#1C193E;
 }
 
 a{
-    color:#fff;
+    color:#f9f9f9;
     text-decoration:none;
 }
 
@@ -118,8 +120,8 @@ span.reference{
 }
 
 span.reference a{
-    color:#fff;
-    text-shadow:1px 1px 1px #000;
+    color:#f9f9f9;
+    text-shadow:1px 1px 1px #1C193E;
     padding-right:20px;
 }
 
