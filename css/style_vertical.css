@@ -53,12 +53,12 @@ body{
 
 .black{
     color:#fff;
-    background:#000 url(../images/black_vert.jpg) repeat-x bottom left;
+    background:#000 url(../images/black-to-white.png) repeat-x bottom left;
 }
 
 .white{
     color:#000;
-    background:#fff url(../images/white_vert.jpg) repeat-x bottom left;
+    background:#fff url(../images/white-to-black.png) repeat-x bottom left;
 }
 
 .section ul{
