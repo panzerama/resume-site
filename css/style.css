@@ -187,12 +187,12 @@ ul.social{
 }
 
 .work-history p {
-    padding: 5px;
+    padding: 5px 0px;
 }
 
 .work-history ul{
     padding: 0px;
-    margin: 10px 0px;
+    margin: 10px 15px;
 }
 
 .work-history ul li{
