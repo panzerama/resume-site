@@ -19,6 +19,25 @@
             </span>
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+              </div>
+              <div class="modal-body">
+                <!-- commented out size restriction -->
+                <img src="" id="imagepreview" >
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="section black" id="section1">
             <div class="row">
                 <div class="col-md-6">
@@ -153,17 +172,17 @@
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-3">
                         <div class="thumbnail">
-                          <img src="http://placekitten.com/300/301" alt="Bacon">
+                          <img src="images/xacard.png" alt="Exhibitor Assistant business card">
                           <div class="caption">
-                            <h3>Item 1</h3>
-                            <p>Ribeye alcatra ham, hamburger rump cupim tenderloin sirloin salami tail tri-tip sausage doner shank cow. Short ribs drumstick frankfurter t-bone tenderloin andouille tail flank swine shankle turkey biltong.</p>
-                            <p><a href="#" class="button">Button</a></p>
+                            <h3>Business card for PAX</h3>
+                            <p>My chief volunteer pursuit is with the Enforcers, who maintain the structure of PAX in all four venues. As an Exhibitor Assistant, I created this card to keep communication open.</p>
+                            <p><a href="#" class="button pop">View .pdf</a></p>
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-3">
                         <div class="thumbnail">
                           <img src="http://placekitten.com/300/301" alt="Bacon">
                           <div class="caption">
@@ -173,7 +192,17 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-3">
+                        <div class="thumbnail">
+                          <img src="http://placekitten.com/300/301" alt="Bacon">
+                          <div class="caption">
+                            <h3>Third item</h3>
+                            <p>Ribeye alcatra ham, hamburger rump cupim tenderloin sirloin salami tail tri-tip sausage doner shank cow. Short ribs drumstick frankfurter t-bone tenderloin andouille tail flank swine shankle turkey biltong.</p>
+                            <p><a href="#" class="button">Button</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
                         <div class="thumbnail">
                           <img src="http://placekitten.com/300/301" alt="Bacon">
                           <div class="caption">
@@ -250,6 +279,13 @@
                 });
             });
         </script>
+
+        <script>
+        $(".pop").on("click", function() {
+        $('#imagepreview').attr('src', $('#imageresource').attr('src'));
+        $('#imagemodal').modal('show');
+   
+        });</script>
 
     </body>
 </html>
