@@ -201,3 +201,15 @@ ul.social{
 .work-history ul li{
     padding: 5px 5px 0px 0px;
 }
+
+.work-history h3 {
+    text-decoration: underline;
+}
+
+#section2{
+    height: 1500px;
+}
+
+#section3{
+    height: 1000px;
+}
