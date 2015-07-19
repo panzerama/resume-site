@@ -155,9 +155,7 @@
                     <div class="row">
                       <div class="col-md-3">
                         <div class="thumbnail">
-                        <a href="images/xacard.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Exhibitor Assisstant business card" class="col-sm-4">
-                          <img src="images/xacard.png" alt="Exhibitor Assistant business card" class="img-responsive">
-                        </a>
+                        <img id="imageresource" src="images/xacard.png" alt="Exhibitor Assistant business card" style="width: 255; height: 354;">
                           <div class="caption">
                             <h3>Business card for PAX</h3>
                             <p>My chief volunteer pursuit is with the Enforcers, who maintain the structure of PAX in all four venues. As an Exhibitor Assistant, I created this card to keep communication open.</p>
@@ -167,9 +165,7 @@
                       </div>
                       <div class="col-md-3">
                         <div class="thumbnail">
-                        <a href="images/clockwork-professor.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="The Clockwork Professor" class="col-sm-4">
-                          <img src="images/clockwork-professor.jpg" alt="The Clockwork Professor" class="img-responsive">
-                        </a>
+                          <img src="images/clockwork-professor.jpg" alt="The Clockwork Professor">
                           <div class="caption">
                             <h3>Concept Art for The Clockwork Professor</h3>
                             <p>I had the privilege of working with the Pork-Filled Players on a number of occasions in Seattle. They are a fantastic company, and while they relied on a show poster drafted by a local artist, I proposed this concept design for the show.</p>
@@ -265,63 +261,11 @@
             });
         </script>
 
-        <script src="js/bootstrap.min.js"></script>
-
-        <script src="js/ekko-lightbox.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function ($) {
-                // delegate calls to data-toggle="lightbox"
-                $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
-                    event.preventDefault();
-                    return $(this).ekkoLightbox({
-                        onShown: function() {
-                            if (window.console) {
-                                return console.log('Checking our the events huh?');
-                            }
-                        },
-            onNavigate: function(direction, itemIndex) {
-                            if (window.console) {
-                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-                            }
-            }
-                    });
-                });
-
-                //Programatically call
-                $('#open-image').click(function (e) {
-                    e.preventDefault();
-                    $(this).ekkoLightbox();
-                });
-                $('#open-youtube').click(function (e) {
-                    e.preventDefault();
-                    $(this).ekkoLightbox();
-                });
-
-        // navigateTo
-                $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
-                    event.preventDefault();
-                    return $(this).ekkoLightbox({
-                        onShown: function() {
-
-              var a = this.modal_content.find('.modal-footer a');
-              if(a.length > 0) {
-
-                a.click(function(e) {
-
-                  e.preventDefault();
-                  this.navigateTo(2);
-
-                }.bind(this));
-
-              }
-
-                        }
-                    });
-                });
-
-
-            });
+        <script>
+        $(".pop").on("click", function() {
+            $('#imagepreview').attr('src', $('#imageresource').attr('src'));
+            $('#imagemodal').modal('show');
+        });
         </script>
 
     </body>
