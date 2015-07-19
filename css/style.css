@@ -177,6 +177,24 @@ ul.social{
     padding: 10px 0px 0px 0px;
 }
 
-.black-on-white-icon{
-    background: #1C193E url(images/blue-white-100px-circle.png) no-repeat center;
+.white-on-blue-icon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    background: #1C193E url(images/white-blue-100px-circle.png) no-repeat center;
+}
+
+.work-history p {
+    padding: 5px;
+}
+
+.work-history ul{
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.work-history ul li{
+    padding: 5px 5px 0px 0px;
 }
