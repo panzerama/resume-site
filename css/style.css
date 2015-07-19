@@ -36,7 +36,6 @@ p{
 .section h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
-    margin:10px 0px 30px 0px;
 }
 
 .section h2{
@@ -182,8 +181,12 @@ ul.social{
     width: 100px;
     height: 100px;
     position: relative;
-    top: 25px;
-    background: #1C193E url(images/white-blue-100px-circle.png) no-repeat center;
+    float: left;
+    background: #1C193E url(../images/white-blue-100px-circle.png) no-repeat center;
+}
+
+.col-md-6 .work-history{
+    padding-left: 40px;
 }
 
 .work-history p {
