@@ -79,6 +79,17 @@ ul li a{
     border-radius: 10px;        
 }
 
+.black a:link,
+.black a:visited{
+    display:block;
+    color:#f9f9f9;
+}
+
+.black a:hover{
+    text-decoration:none;
+    color:#f0f0f0;
+}
+
 .black ul li{
     color:#f9f9f9;
 }
