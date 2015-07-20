@@ -221,10 +221,10 @@ a.button{
     height: 1000px;
 }
 
-.social ul{
+ul.social{
     padding: 0px;
 }
 
-.social li:first-child{
+ul.social li:first-child{
     padding-top: 0px;
 }
