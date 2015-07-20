@@ -224,3 +224,7 @@ ul.social{
 #section3{
     height: 1000px;
 }
+
+.social ul{
+    padding-top: 0px;
+}
