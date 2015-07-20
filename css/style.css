@@ -183,10 +183,6 @@ a.button{
     font-size: 20px;
 }
 
-ul.social{
-    padding: 10px 0px 0px 0px;
-}
-
 .white-on-blue-icon{
     display: inline-block;
     width: 100px;
@@ -226,5 +222,9 @@ ul.social{
 }
 
 .social ul{
+    padding: 0px;
+}
+
+.social li:first-child{
     padding-top: 0px;
 }
