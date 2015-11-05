@@ -8,12 +8,20 @@
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
+    <style>
 
+
+    </style>
     <body>
+        <div>
+            <span class="reference">
+                <a href="mailto:jason.drew.panzer@gmail.com">email me.</a>
+            </span>
+        </div>
 
         <div class="black container-fluid" id="section1">
             <div class="row">
-                <div class="col-md-6 col-xs-6">
+                <div class="col-md-6 col-xs-6 col-xs-offset-1">
                     <span class="white-on-blue-icon"></span>
                     <h1>Jason Drew Panzer</h1>
                 </div>
@@ -32,7 +40,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-9 col-xs-9"><!--removed class work-history-->
+                <div class="col-md-9 col-xs-9 work-history">
                     <div class="row">
                         <div class="col-md-12">
                             <h3>Work History</h3>
@@ -54,6 +62,10 @@
                               <li>Setting appointments for our Acquisition Sale team</li>
                               <li>Filtered leads to create an efficient sales process for my team</li>
                           </ul>
+                          <h5>Contract Assignment (Randstad Staffing)</h5>
+                          <ul>
+                              <li>Contacted hotels, wineries, restaurants, and other service companies to generate leads for our donation management platform</li>
+                          </ul>
                           </div>
                           <div class="col-md-6 col-xs-12">
                             <h4>ExOfficio, LLC</h4>
@@ -69,6 +81,7 @@
                             </ul>
                         </div>
                     </div> 
+                    <br/>
                     <div class="row">
                          <div class="col-md-4 col-xs-12">
                              <h4>ReACT Theater</h4>
@@ -86,6 +99,7 @@
                              <p>Teacher</p>
                          </div>
                      </div> 
+                     <br />
                     <div class="row">
                         <div class="col-md-6 col-xs-12">
                             <h3>Education</h3>
@@ -123,7 +137,6 @@
                 </div>
             </div>
         </div>
-
         <div class="white container-fluid" id="section2">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
@@ -140,7 +153,7 @@
                 </div>
                 <div class="col-md-9 col-xs-9">
                     <div class="row">
-                      <div class="col-md-6 col-xs-12">
+                      <div class="col-md-12 col-xs-12">
                         <div class="thumbnail">
                         <a href="images/xacard.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Exhibitor Assisstant business card">
                           <img src="images/xacard.png" alt="Exhibitor Assistant business card" class="img-responsive">
@@ -153,7 +166,7 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 col-xs-12">
+                      <div class="col-md-12 col-xs-12">
                         <div class="thumbnail">
                         <a href="images/clockwork-professor.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="The Clockwork Professor">
                           <img src="images/clockwork-professor.jpg" alt="The Clockwork Professor" class="img-responsive">
@@ -166,7 +179,7 @@
                         </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 col-xs-12">
+                      <div class="col-md-12 col-xs-12">
                         <div class="thumbnail">
                           <a href="images/sew-you-dont.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Sew You Don't You Have To">
                           <img src="images/sew-you-dont.png" alt="Sew You Don't You Have To" class="img-responsive">
@@ -179,7 +192,7 @@
                         </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-6 col-xs-12">
+                      <div class="col-md-12 col-xs-12">
                         <div class="thumbnail">
                           <a href="images/player-logo-1.png" data-toggle="lightbox" data-gallery="multiimages" data-title="Pork Filled Players">
                           <img src="images/player-logo-1.png" alt="Pork Filled Players" class="img-responsive">
@@ -195,7 +208,6 @@
                 </div>
             </div>
         </div>
-
         <div class="black container-fluid" id="section3">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
@@ -237,7 +249,7 @@
         </div>
 
         <!-- Das Script -->
-<!--debugging
+
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript">
@@ -317,7 +329,7 @@
 
 
             });
-        </script>-->
+        </script>
 
     </body>
 </html>
