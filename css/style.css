@@ -56,12 +56,14 @@ p{
     color:#f9f9f9;
     background:#1C193E url(../images/blue-to-white.png) repeat-x bottom left;
     background-size: 100%;
+    padding-bottom: 200px;
 }
 
 .white{
     color:#1C193E;
     background:#f9f9f9 url(../images/white-to-blue.png) repeat-x bottom left;
     background-size: 100%;
+    padding-bottom: 200px;
 }
 
 ul{
@@ -228,6 +230,7 @@ ul.social{
 ul.social li:first-child{
     padding-top: 0px;
 }
+
 /* Large desktop */
 @media (min-width: 1200px) { 
     h1{ font-size: 48px; }
