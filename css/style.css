@@ -57,6 +57,7 @@ p{
     background:#1C193E url(../images/blue-to-white.png) repeat-x bottom left;
     background-size: 100%;
     padding-bottom: 500px;
+    min-height: 1000px;
 }
 
 .white{
@@ -64,6 +65,7 @@ p{
     background:#f9f9f9 url(../images/white-to-blue.png) repeat-x bottom left;
     background-size: 100%;
     padding-bottom: 500px;
+    min-height: 1000px;
 }
 
 ul{
