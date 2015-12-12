@@ -215,13 +215,17 @@ a.button{
     text-decoration: underline;
 }
 
+/*
+commented out 12/12/15
+trying to fix layout issues
+
 #section2{
     height: 1500px;
 }
 
 #section3{
     height: 1000px;
-}
+}*/
 
 ul.social{
     padding: 0px;
