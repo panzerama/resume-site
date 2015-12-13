@@ -201,25 +201,13 @@ a.button{
     background: #1C193E url(../images/white-blue-100px-circle.png) no-repeat center;
 }
 
-.col-md-6 .work-history{
-    padding-left: 40px;
-}
-
-.work-history p {
-    padding: 5px 0px;
-}
-
-.work-history ul{
+ul.work-history{
     padding: 0px;
     margin: 10px 15px;
 }
 
-.work-history ul li{
+ul.work-history li{
     padding: 5px 5px 0px 0px;
-}
-
-.work-history h3 {
-    text-decoration: underline;
 }
 
 /*
